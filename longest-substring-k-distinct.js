@@ -1,6 +1,6 @@
 // Find the longest substring with K distinct characters
 
-const str = 'aabdfhhfd';
+const str = 'araaci';
 const K = 2;
 
 
@@ -19,6 +19,7 @@ charFrequency = {};
     charFrequency[rightChar] += 1
     while (Object.keys(charFrequency).length > k) {
       // while the distinct count greater than keys
+      console.table(charFrequency)
       const leftChar = str[windowStart];
       charFrequency[leftChar] -= 1;
       if (charFrequency[leftChar] === 0) {
