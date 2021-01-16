@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node smallest-sub-array.js"
+run = "node longest-substring-k-distinct.js"

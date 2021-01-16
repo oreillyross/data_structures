@@ -8,6 +8,7 @@
 // reduce the element at start of sliding window
 // move the window start up on place.
 // exit for loop and return min
+// O(n) time O(1) space
 
 const array = [1,4,5,6,3,2]
 const S = 17
