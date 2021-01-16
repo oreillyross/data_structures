@@ -1,4 +1,6 @@
 // Find the longest substring with K distinct characters
+// time complexity is O(n + n) which asymptotically is O(n)
+// space complexity is O(K)
 
 const str = 'araaci';
 const K = 2;
