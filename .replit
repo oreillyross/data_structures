@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node longest-substring-k-distinct.js"
+run = "node fruit-baskets.js"
