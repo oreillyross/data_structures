@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node fruit-baskets.js"
+run = "node no-repeat.js"
