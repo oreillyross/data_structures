@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node no-repeat.js"
+run = "node length_longest_substring.js"
