@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node maximum-sub-array.js"
+run = "node length_longest_substring.js"
