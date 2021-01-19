@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node length_longest_substring.js"
+run = "node replacing-ones.js"
