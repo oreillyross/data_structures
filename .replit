@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node replacing-ones.js"
+run = "node find-perm.js"
