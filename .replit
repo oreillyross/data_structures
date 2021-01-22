@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node find-perm.js"
+run = "node find-perm-indice.js"
