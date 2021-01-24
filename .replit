@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node find-substr.js"
+run = "node pair-target-sum.js"
