@@ -7,6 +7,7 @@ This is a repo where I code all of the example coding excercises from the Educat
 maximum-sub-array.js
 longest-substring-k-distance.js
 smallest-sub-array.js
+fruit-baskets.js
 
 
 
