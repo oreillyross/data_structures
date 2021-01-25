@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node pair-target-sum.js"
+run = "node remove-dups.js"

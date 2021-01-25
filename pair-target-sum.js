@@ -21,3 +21,4 @@ function pair_target_sum(arr, target) {
 }
 
 console.log(pair_target_sum([1,2,3,4], 6))
+
