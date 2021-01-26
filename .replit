@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node remove-dups.js"
+run = "node make-squares.js"
