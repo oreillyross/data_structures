@@ -1,3 +1,6 @@
+
+
+
 function find_word_concat(str, words) {
   if (words.length === 0 || words[0].length === 0) {
     return []

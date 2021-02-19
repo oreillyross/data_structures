@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node find-word-concatenation.js"
+run = "node ./challenges/reverseLinkedList.js"
