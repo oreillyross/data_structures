@@ -11,12 +11,8 @@ class LinkedList {
     this.tail = this.head;
   }
 
-  isHead(node) {
-    return node === this.head;
-  }
-
-  isTail(node) {
-    return node === this.tail;
+  isTail() {
+    
   }
 
   insert(value) {
@@ -25,13 +21,8 @@ class LinkedList {
     this.tail = node;
   }
 
-  contains(value) {
-    let currentNode = this.head;
-    while (currentNode.value !== value) {
-      currentNode = currentNode.next;
-    }
-   
-    return currentNode.value === value
+  remove() {
+
   }
 
 
@@ -51,7 +42,7 @@ class LinkedList {
 }
 
 function removeNext(list, prevNode) {
-
+  
 }
 
 const myList = new LinkedList(1);
@@ -65,5 +56,3 @@ myList.insert(3)
 
 myList.removeTail();
 console.log(myList)
-
-console.log(myList.contains(4))
