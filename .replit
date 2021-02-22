@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node ./challenges/reverseLinkedList.js"
+run = "node ./challenges/HashTable.js"
