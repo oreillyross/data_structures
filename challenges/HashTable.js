@@ -23,8 +23,9 @@ class HashTable {
   remove() {
 
   }
-
-  retrieve() {
+  // given the below data structure how to handle collision.
+ // [undefined, undefined, [['a', 1],['b', 2]], undefined]
+  retrieve(key) {
 
   }
 
