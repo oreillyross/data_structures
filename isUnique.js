@@ -75,7 +75,7 @@ function isUnique3(str) {
 }
 
 const val3 = isUnique3("abc")
-val3
+val3sing 
 
 const val2 = isUnique2("adbc")
 val2
