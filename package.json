@@ -2,9 +2,9 @@
   "name": "datastructures-1",
   "version": "1.0.0",
   "description": "This is a repo where I code all of the example coding excercises from the Educative Data structures course.",
-  "main": "fruit-baskets.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/oreillyross/data_structures#readme",
   "dependencies": {
     "assert": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
   }
 }
