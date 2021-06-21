@@ -1,58 +1,43 @@
 // const linkedList = require('../structures/singlyLinkedList');
 
-
 // const list = new linkedList.LinkedList();
 // console.log(list.isEmpty())
 
-
 class LinkedList {
   constructor(value) {
-    this.head = {value, next: null};
-    this.tail = this.head;
+    this.head = null;
+    this.tail = null;
+    this._length = 0;
   }
 
-  isTail() {
-    
-  }
+  addToTail(item) {
+    const newNode = {
+      value: item,
+      next: null,
+    };
 
-  insert(value) {
-    const node = {value, next: null}
-    this.tail.next = node;
-    this.tail = node;
-  }
-
-  remove() {
-
-  }
-
-
-
-  removeTail() {
-    // loop and find the node before the tail!
-    // node.next === this.tail
-    let currentNode = this.head
-    while(currentNode.next  !== this.tail) {
-       currentNode = currentNode.next;
+    if (this._length === 0) {
+      this.head = newNode;
+    } else {
+      this.tail.next = newNode;
     }
-    // when it breaks out of the while loop the  currentNode.next is the tail.
-    currentNode.next = null;
-    this.tail = currentNode;
+
+    this.tail = newNode;
+    this._length++;
   }
 
+  removeFromHead() {
+    if (this._length === 0) {
+      return undefined;
+    }
+
+    const itemToReturn = this.head.value;
+    this.head = this.head.next;
+    this._length--;
+    return itemToReturn;
+  }
+
+  get size() {
+    return this._length;
+  }
 }
-
-function removeNext(list, prevNode) {
-  
-}
-
-const myList = new LinkedList(1);
-
-// console.log(myList)
-
-myList.insert(2)
- console.log(myList)
-
-myList.insert(3)
-
-myList.removeTail();
-console.log(myList)
