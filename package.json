@@ -1,0 +1,26 @@
+{
+  "name": "datastructures-1",
+  "version": "1.0.0",
+  "description": "This is a repo where I code all of the example coding excercises from the Educative Data structures course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oreillyross/data_structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oreillyross/data_structures/issues"
+  },
+  "homepage": "https://github.com/oreillyross/data_structures#readme",
+  "dependencies": {
+    "assert": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
